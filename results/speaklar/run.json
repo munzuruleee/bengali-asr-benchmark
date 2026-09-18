@@ -1,0 +1,19 @@
+{
+  "model": {
+    "repo": "munzurul/speaklar_bangla_asr",
+    "revision": "90686eb1dca5a2949e4115c3993d07bd5f031cbc",
+    "filename": "speaklar_bangla_asr.nemo",
+    "backend": "nemo"
+  },
+  "device": "cuda",
+  "decoder": "checkpoint-default",
+  "samples": 1000,
+  "full_dataset": true,
+  "batch_size": 16,
+  "manifest_sha256": "84daf891cc3e516b9486a4451335b9fb4b707b61cfb15b29fed15c7f9aa9e52f",
+  "python": "3.11.16",
+  "torch": "2.7.1+cu128",
+  "nemo": "2.7.3",
+  "hardware": "Tesla T4",
+  "status": "complete"
+}

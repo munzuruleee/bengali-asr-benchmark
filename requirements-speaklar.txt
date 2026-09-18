@@ -1,0 +1,9 @@
+# Separate Python 3.11 environment, matching the publisher's requirements.
+torch==2.6.0
+torchaudio==2.6.0
+nemo_toolkit[asr]==2.4.0
+pyannote.core>=5,<6
+pyannote.metrics>=3.2,<4
+soundfile>=0.12.1,<0.15
+sentencepiece>=0.2.0,<0.3
+huggingface_hub>=0.24,<2

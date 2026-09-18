@@ -1,0 +1,16 @@
+.venv/
+.venv-*/
+vendor/
+data/asr_bengali_1000_wav/
+__pycache__/
+*.pyc
+smoke*/
+results/*/predictions.jsonl
+results/*/run.json
+results/*/metrics.json
+!results/
+!results/*/
+!results/*/metrics.json
+!results/*/run.json
+!results/*/predictions.jsonl
+.DS_Store

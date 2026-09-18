@@ -1,0 +1,23 @@
+{
+  "model": "indic",
+  "samples": 1000,
+  "full_dataset": true,
+  "raw": {
+    "wer_percent": 22.174487772637146,
+    "cer_percent": 6.033617661816357,
+    "word_edits": 671,
+    "reference_words": 3026,
+    "character_edits": 962,
+    "reference_characters": 15944
+  },
+  "normalized": {
+    "wer_percent": 21.97620621282221,
+    "cer_percent": 5.949097291875627,
+    "word_edits": 665,
+    "reference_words": 3026,
+    "character_edits": 949,
+    "reference_characters": 15952
+  },
+  "elapsed_seconds": 41.962895723999736,
+  "rtf": 0.01211469938333615
+}

@@ -1,0 +1,26 @@
+{
+  "titu-large": {
+    "repo": "hishab/titu_stt_bn_conformer_large",
+    "revision": "42041012a7cdb9df071eac4cef33b8a6182eb687",
+    "filename": "titu_stt_bn_conformer_large.nemo",
+    "backend": "nemo"
+  },
+  "titu-fast": {
+    "repo": "hishab/titu_stt_bn_fastconformer",
+    "revision": "993316b17c3db56a42bf0140b8ad524f35b4677b",
+    "filename": "titu_stt_bn_fastconformer.nemo",
+    "backend": "nemo"
+  },
+  "indic": {
+    "repo": "ai4bharat/indicconformer_stt_bn_hybrid_ctc_rnnt_large",
+    "revision": "15a1cd06245262b914f27ed445a604b7b278d187",
+    "filename": "indicconformer_stt_bn_hybrid_rnnt_large.nemo",
+    "backend": "indic"
+  },
+  "speaklar": {
+    "repo": "munzurul/speaklar_bangla_asr",
+    "revision": "90686eb1dca5a2949e4115c3993d07bd5f031cbc",
+    "filename": "speaklar_bangla_asr.nemo",
+    "backend": "nemo"
+  }
+}

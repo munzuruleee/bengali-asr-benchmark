@@ -1,0 +1,23 @@
+{
+  "model": "speaklar",
+  "samples": 1000,
+  "full_dataset": true,
+  "raw": {
+    "wer_percent": 13.185723727693324,
+    "cer_percent": 3.7380832915203213,
+    "word_edits": 399,
+    "reference_words": 3026,
+    "character_edits": 596,
+    "reference_characters": 15944
+  },
+  "normalized": {
+    "wer_percent": 12.888301387970918,
+    "cer_percent": 3.6171013039117352,
+    "word_edits": 390,
+    "reference_words": 3026,
+    "character_edits": 577,
+    "reference_characters": 15952
+  },
+  "elapsed_seconds": 22.544045767999933,
+  "rtf": 0.006508472131185387
+}

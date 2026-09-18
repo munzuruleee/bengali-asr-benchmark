@@ -1,0 +1,23 @@
+{
+  "model": "titu-large",
+  "samples": 1000,
+  "full_dataset": true,
+  "raw": {
+    "wer_percent": 13.350958360872438,
+    "cer_percent": 3.7129954841946815,
+    "word_edits": 404,
+    "reference_words": 3026,
+    "character_edits": 592,
+    "reference_characters": 15944
+  },
+  "normalized": {
+    "wer_percent": 13.086582947785855,
+    "cer_percent": 3.592026078234704,
+    "word_edits": 396,
+    "reference_words": 3026,
+    "character_edits": 573,
+    "reference_characters": 15952
+  },
+  "elapsed_seconds": 22.24164901800009,
+  "rtf": 0.0064211701073965295
+}

@@ -1,0 +1,19 @@
+{
+  "model": {
+    "repo": "ai4bharat/indicconformer_stt_bn_hybrid_ctc_rnnt_large",
+    "revision": "15a1cd06245262b914f27ed445a604b7b278d187",
+    "filename": "indicconformer_stt_bn_hybrid_rnnt_large.nemo",
+    "backend": "indic"
+  },
+  "device": "cuda",
+  "decoder": "ctc",
+  "samples": 1000,
+  "full_dataset": true,
+  "batch_size": 16,
+  "manifest_sha256": "84daf891cc3e516b9486a4451335b9fb4b707b61cfb15b29fed15c7f9aa9e52f",
+  "python": "3.11.16",
+  "torch": "2.6.0+cu124",
+  "nemo": "1.23.0rc0",
+  "hardware": "Tesla T4",
+  "status": "complete"
+}
