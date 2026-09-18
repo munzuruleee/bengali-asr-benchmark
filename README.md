@@ -22,6 +22,8 @@ Normalized corpus WER/CER on the 1,000-recording BangalASR test set; lower is be
 
 Full methodology, raw scores, edit counts, runtime, and reproducibility metadata are in [BENCHMARK_RESULTS.md](BENCHMARK_RESULTS.md).
 
+For an utterance-by-utterance comparison, use [results/all_transcripts.csv](results/all_transcripts.csv). Each of its 1,000 rows contains the audio path, the original reference transcript, and the prediction from Speaklar, Titu Large, Titu Fast, IndicConformer CTC, and IndicConformer RNNT.
+
 ## Models
 
 `models.json` pins each Hugging Face repository to its inspected commit and selects an explicit checkpoint:
