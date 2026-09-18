@@ -75,6 +75,12 @@ Run benchmark commands as children of that Python process, or export the variabl
 
 ## Speaklar: separate environment
 
+You can test your own Bengali audio interactively in the live [Speaklar Bangla ASR Space](https://huggingface.co/spaces/munzurul/Speaklar_Bangla_ASR). Open the Space, upload an audio file, and submit it for transcription. For reliable results, provide a clear mono WAV sampled at 16 kHz; convert other audio with:
+
+```bash
+ffmpeg -i my_audio.mp3 -ac 1 -ar 16000 my_audio_16k.wav
+```
+
 The publisher documents Python 3.10/3.11, Torch 2.6 and NeMo 2.4. Use a separate Python 3.11 environment:
 
 ```bash
